@@ -1,4 +1,4 @@
-# Klugnugget - Havoc - 2020-04-07 12:10 - US/Zul'jin
+# Klugnugget - Havoc - 2020-04-14 10:23 - US/Zul'jin
 # SimC Addon 1.12.5
 # Requires SimulationCraft 820-01 or newer
 
@@ -15,16 +15,16 @@ spec=havoc
 azerite_essences=5:3/300573/6:3/300575/300576/32:3/300577/312927/35:3/312928
 # azerite_essences_available=2:3/3:1/4:3/5:3/6:3/7:3/12:4/13:3/14:3/15:1/22:3/23:2/25:3/27:3/28:3/32:3/33:3/34:3/35:3/36:3/37:3
 
-head=,id=174132,bonus_id=4823/1502/4786/6508/4775,context=5,azerite_powers=159/582/22/83/13
-neck=,id=158075,bonus_id=6316/4932/4933/1636,context=11,azerite_level=83
+head=,id=174134,bonus_id=4823/1502/4786/6508/4775,context=5,azerite_powers=220/159/30/44/13
+neck=,id=158075,bonus_id=6316/4932/4933/1638,context=11,azerite_level=84
 shoulder=,id=174135,bonus_id=4823/1502/4786/6509/4775,context=5,azerite_powers=159/582/459/14/13
 back=,id=169223,bonus_id=6580/1472,context=11
 chest=,id=159314,bonus_id=5448/1647/4786/6510/4775,context=35,azerite_powers=126/159/459/44/13
 tabard=,id=45585,context=14
 wrist=,id=159300,enchant_id=5936,gem_id=168642,bonus_id=6532/4802/6516/6513/1632/4786,context=16
 hands=,id=168985,enchant_id=5932,bonus_id=5009/6578/6579/6538/6515/1517/4786,context=35
-waist=,id=174142,bonus_id=4822/6578/6579/6555/6515/1487/4786,context=3
-legs=,id=174143,bonus_id=4823/6516/6515/1502/4786,context=5
+waist=,id=174142,bonus_id=4823/6516/6513/1502/4786,context=5
+legs=,id=174139,bonus_id=4823/6578/6579/6537/6515/1502/4786,context=5
 feet=,id=159347,bonus_id=6536/6578/6579/6537/6515/1647/4786,context=35
 finger1=,id=174533,enchant_id=6111,gem_id=168642,bonus_id=4823/1808/6516/6515/1502/4786,context=5
 finger2=,id=175008,enchant_id=6111,gem_id=168642,bonus_id=4822/41/6516/6513/1487/4786,context=3
@@ -35,11 +35,14 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 
 ### Gear from Bags
 #
+# Mask of the Burned Bridge (1)
+# head=,id=174342,context=9
+#
 # Mask of the Dark Imagination (1)
 # head=,id=173953,context=9
 #
-# Gibbering Maw (465)
-# head=,id=174134,bonus_id=4823/1502/4786/6508/4775,context=5,azerite_powers=220/159/30/44/13
+# Stygian Guise (465)
+# head=,id=174132,bonus_id=4823/1502/4786/6508/4775,context=5,azerite_powers=159/582/22/83/13
 #
 # Hallowed Helm (1)
 # head=,id=33292,context=11
@@ -47,8 +50,8 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # Cowl of Fluid Machinations (480)
 # head=,id=159302,bonus_id=5448/1647/4786/6511/4775,context=35,azerite_powers=354/478/22/202/13
 #
-# Mask of the Burned Bridge (1)
-# head=,id=174342,context=9
+# Cowl of Fluid Machinations (475)
+# head=,id=159302,bonus_id=5448/1647/4786/6511,context=35,azerite_powers=
 #
 # Mask of the Pained (1)
 # head=,id=173524,context=9
@@ -92,20 +95,20 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # Tabard of the Honorbound (120)
 # tabard=,id=160545,context=14
 #
-# Bindings of the Insatiable Maw (430)
-# wrist=,id=173480,bonus_id=6412/4803/6513/6578/6579/6544/1487/4786,context=36
-#
-# Bracers of Dark Prophecy (460)
-# wrist=,id=174138,bonus_id=4823/6516/6513/1502/4786,context=5
+# Wristwraps of the Insatiable Maw (440)
+# wrist=,id=174954,enchant_id=5936,bonus_id=6540/6578/6579/4803/6515,context=28
 #
 # Kula's Butchering Wristwraps (465)
 # wrist=,id=159300,enchant_id=5971,bonus_id=6528/6578/6515/1637/4786,context=35
 #
-# Wristwraps of the Insatiable Maw (440)
-# wrist=,id=174954,enchant_id=5936,bonus_id=6540/6578/6579/4803/6515,context=28
-#
 # Coils of the Insatiable Maw (430)
 # wrist=,id=173489,bonus_id=6412/4803/6515/6578/6579/6480/6455/1487/4786,context=36
+#
+# Bracers of Dark Prophecy (460)
+# wrist=,id=174138,bonus_id=4823/6516/6513/1502/4786,context=5
+#
+# Bindings of the Insatiable Maw (430)
+# wrist=,id=173480,bonus_id=6412/4803/6513/6578/6579/6544/1487/4786,context=36
 #
 # Gloves of Corrupted Waters (460)
 # hands=,id=159321,enchant_id=5932,bonus_id=6528/6516/6515/1632/4786,context=16
@@ -134,14 +137,14 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # Gloves of Corrupted Waters (470)
 # hands=,id=159321,bonus_id=6534/6578/6579/6564/6515/1642/4786,context=35
 #
-# Waistguard of the Insatiable Maw (450)
-# waist=,id=173444,bonus_id=6412/4803/6515/6578/6579/6553/1507/4786,context=42
+# Belt of Braided Vessels (445)
+# waist=,id=174142,bonus_id=4822/6578/6579/6555/6515/1487/4786,context=3
 #
 # Grasp of the Insatiable Maw (445)
 # waist=,id=173512,gem_id=168642,bonus_id=6412/4803/4802/6515/6516/1502/4786,context=29
 #
-# Grasp of the Insatiable Maw (445)
-# waist=,id=173512,bonus_id=6412/4803/6513/6578/6579/6480/6455/1502/4786,context=29
+# Waistguard of the Insatiable Maw (450)
+# waist=,id=173444,bonus_id=6412/4803/6515/6578/6579/6553/1507/4786,context=42
 #
 # Cord of Anguished Cries (460)
 # waist=,id=174140,bonus_id=4823/6516/6515/1502/4786,context=5
@@ -149,17 +152,17 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # Waistguard of the Insatiable Maw (420)
 # waist=,id=173444,bonus_id=6412/4803/6515/6578/6579/6494/6613/1477/4786,context=30
 #
-# Belt of Braided Vessels (460)
-# waist=,id=174142,bonus_id=4823/6516/6513/1502/4786,context=5
-#
 # Cord of Anguished Cries (460)
 # waist=,id=174140,bonus_id=4823/6516/6513/1502/4786,context=5
+#
+# Unscrupulous Geologist's Belt (460)
+# waist=,id=159725,bonus_id=6528/6516/6515/1632/4786,context=16
 #
 # Waistcord of the Tranquil Path (310)
 # waist=,id=164434,context=11
 #
-# Unscrupulous Geologist's Belt (460)
-# waist=,id=159725,bonus_id=6528/6516/6515/1632/4786,context=16
+# Grasp of the Insatiable Maw (445)
+# waist=,id=173512,bonus_id=6412/4803/6513/6578/6579/6480/6455/1502/4786,context=29
 #
 # Girdle of the Insatiable Maw (455)
 # waist=,id=173815,bonus_id=6412/4803/6513/6578/6579/6563/1512/4786,context=43
@@ -170,8 +173,11 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # Corrupted Gladiator's Leather Legguards (445)
 # legs=,id=172535,bonus_id=6363/6388/6578/6579/6479/6470/6515/1557/4786,context=56
 #
-# Onyx-Imbued Breeches (460)
-# legs=,id=174139,bonus_id=4823/6578/6579/6537/6515/1502/4786,context=5
+# Pustule Bearer's Pants (470)
+# legs=,id=159338,bonus_id=6532/6578/6579/6550/6515/1642/4786,context=35
+#
+# Macabre Ritual Pants (460)
+# legs=,id=174143,bonus_id=4823/6516/6515/1502/4786,context=5
 #
 # Trousers  of the Insatiable Maw (430)
 # legs=,id=173814,bonus_id=6412/4803/6513/6578/6579/6564/1487/4786,context=36
@@ -179,8 +185,8 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # Leggings of the Insatiable Maw (450)
 # legs=,id=173468,bonus_id=6412/4803/6513/6578/6579/6439/6470/1507/4786,context=42
 #
-# Footpads of the Insatiable Maw (430)
-# feet=,id=173439,bonus_id=6412/4803/6515/6578/6579/6544/1487/4786,context=36
+# Silver-Trimmed Breeches (460)
+# legs=,id=159297,bonus_id=6532/6516/6513/1632/4786,context=16
 #
 # Footwraps of the Insatiable Maw (445)
 # feet=,id=173496,bonus_id=6412/4803/4802/6515/6578/6579/6562/1502/4786,context=29
@@ -191,8 +197,8 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # Mercenary Miner's Boots (470)
 # feet=,id=159336,bonus_id=6530/6578/6579/6541/6515/1642/4786,context=35
 #
-# Footwraps of the Insatiable Maw (430)
-# feet=,id=173496,bonus_id=6412/4803/6513/6578/6579/6561/1487/4786,context=36
+# Footpads of the Insatiable Maw (430)
+# feet=,id=173439,bonus_id=6412/4803/6515/6578/6579/6544/1487/4786,context=36
 #
 # Boots of Manifest Shadow (460)
 # feet=,id=174141,bonus_id=4823/43/6516/6513/1502/4786,context=5
@@ -202,6 +208,9 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 #
 # Boots of the Insatiable Maw (420)
 # feet=,id=173477,bonus_id=6412/4803/6515/6578/6579/6547/1477/4786,context=30
+#
+# Footwraps of the Insatiable Maw (430)
+# feet=,id=173496,bonus_id=6412/4803/6513/6578/6579/6561/1487/4786,context=36
 #
 # Void-Etched Band (445)
 # finger1=,id=174531,bonus_id=4822/6516/6515/1487/4786,context=3
@@ -236,17 +245,17 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # Void-Etched Band (460)
 # finger1=,id=174531,bonus_id=4823/1808/6516/6513/1502/4786,context=5
 #
-# Humming Black Dragonscale (460)
-# trinket1=,id=174044,bonus_id=4823/41/6515/1502/4786,context=5
+# My'das Talisman (445)
+# trinket1=,id=158319,bonus_id=5009/6515/1617/4786,context=16
 #
-# Azerokk's Resonating Heart (460)
-# trinket1=,id=159612,bonus_id=6530/6515/1632/4786,context=16
+# Corrupted Gladiator's Maledict (445)
+# trinket1=,id=172672,bonus_id=6387/6388/6515/1557/4786,context=25
 #
 # Remote Guidance Device (445)
 # trinket1=,id=169769,bonus_id=5005/6515/1502/4786,context=16
 #
-# Corrupted Gladiator's Maledict (445)
-# trinket1=,id=172672,bonus_id=6387/6388/6515/1557/4786,context=25
+# Vita-Charged Titanshard (460)
+# trinket1=,id=174500,bonus_id=4823/6513/1502/4786,context=5
 #
 # Modular Platinum Plating (465)
 # trinket1=,id=168965,bonus_id=6534/4802/6513/1522/4786,context=16
@@ -275,41 +284,41 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # Corrupted Gladiator's Insignia (445)
 # trinket1=,id=172668,bonus_id=6363/6389/6513/1557/4786,context=56
 #
+# Azerokk's Resonating Heart (460)
+# trinket1=,id=159612,bonus_id=6530/6515/1632/4786,context=16
+#
 # Azshara's Font of Power (430)
 # trinket1=,id=169314,gem_id=168642,bonus_id=4799/1808/1502/4786,context=5
 #
 # Dribbling Inkpod (430)
 # trinket1=,id=169319,bonus_id=4799/1502/4786,context=5
 #
-# My'das Talisman (445)
-# trinket1=,id=158319,bonus_id=5009/6515/1617/4786,context=16
-#
 # Void-Twisted Titanshard (460)
 # trinket1=,id=174528,bonus_id=4823/6513/1502/4786,context=5
 #
 # Vita-Charged Titanshard (460)
-# trinket1=,id=174500,bonus_id=4823/6513/1502/4786,context=5
+# trinket1=,id=174500,gem_id=168642,bonus_id=4823/1808/6515/1502/4786,context=5
+#
+# Humming Black Dragonscale (460)
+# trinket1=,id=174044,bonus_id=4823/41/6515/1502/4786,context=5
 #
 # Tiny Electromental in a Jar (435)
 # trinket1=,id=158374,bonus_id=5010/1602/5850/4783,context=16
 #
-# Vita-Charged Titanshard (460)
-# trinket1=,id=174500,gem_id=168642,bonus_id=4823/1808/6515/1502/4786,context=5
+# Void-Twisted Titanshard (445)
+# trinket1=,id=174528,bonus_id=4822/6513/1487/4786,context=3
 #
 # Lustrous Golden Plumage (440)
 # trinket1=,id=159617,bonus_id=5010/1612/4783,context=35
 #
-# Void-Twisted Titanshard (445)
-# trinket1=,id=174528,bonus_id=4822/6513/1487/4786,context=3
-#
 # Notorious Gladiator's Safeguard (420)
 # trinket1=,id=167384,bonus_id=6324/6348/1527/5850/4783,context=56
 #
-# Bile-Stained Crawg Tusks (465)
-# main_hand=,id=159653,enchant_id=5965,bonus_id=5010/6578/6579/6554/6513/1637/4786,context=35
-#
 # Mish'un, Blade of Tyrants (460)
 # main_hand=,id=174105,enchant_id=5965,bonus_id=4823/6516/6513/1502/4786,context=5
+#
+# Bile-Stained Crawg Tusks (465)
+# main_hand=,id=159653,enchant_id=5965,bonus_id=5010/6578/6579/6554/6513/1637/4786,context=35
 #
 # Bloody Tideturner (465)
 # main_hand=,id=159635,enchant_id=5962,bonus_id=6528/6578/6579/6437/6455/6513/1637/4786,context=35
@@ -320,20 +329,20 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # The All-Seeing Eye (460)
 # main_hand=,id=172192,enchant_id=5962,bonus_id=4823/6516/6515/1502/4786,context=5
 #
-# Salvaged Incendiary Tool (465)
-# main_hand=,id=169058,bonus_id=6534/6578/6579/6561/6513/1522/4786,context=16
-#
 # Cleaver of the Fractured Dynasty (120)
 # main_hand=,id=174221,bonus_id=5261,drop_level=120
+#
+# Salvaged Incendiary Tool (465)
+# main_hand=,id=169058,bonus_id=6534/6578/6579/6561/6513/1522/4786,context=16
 #
 # Sinister Wicker Talons (440)
 # main_hand=,id=159659,enchant_id=6148,gem_id=168637,bonus_id=5010/4802/6515/1612/4783,context=35
 #
-# Bile-Stained Crawg Tusks (465)
-# off_hand=,id=159653,enchant_id=5965,bonus_id=5010/6578/6579/6554/6513/1637/4786,context=35
-#
 # Mish'un, Blade of Tyrants (460)
 # off_hand=,id=174105,enchant_id=5965,bonus_id=4823/6516/6513/1502/4786,context=5
+#
+# Bile-Stained Crawg Tusks (465)
+# off_hand=,id=159653,enchant_id=5965,bonus_id=5010/6578/6579/6554/6513/1637/4786,context=35
 #
 # Bloody Tideturner (465)
 # off_hand=,id=159635,enchant_id=5962,bonus_id=6528/6578/6579/6437/6455/6513/1637/4786,context=35
@@ -344,14 +353,11 @@ off_hand=,id=168900,enchant_id=5962,bonus_id=4799/1502/4786,context=5
 # The All-Seeing Eye (460)
 # off_hand=,id=172192,enchant_id=5962,bonus_id=4823/6516/6515/1502/4786,context=5
 #
-# Salvaged Incendiary Tool (465)
-# off_hand=,id=169058,bonus_id=6534/6578/6579/6561/6513/1522/4786,context=16
-#
 # Cleaver of the Fractured Dynasty (120)
 # off_hand=,id=174221,bonus_id=5261,drop_level=120
 #
+# Salvaged Incendiary Tool (465)
+# off_hand=,id=169058,bonus_id=6534/6578/6579/6561/6513/1522/4786,context=16
+#
 # Sinister Wicker Talons (440)
 # off_hand=,id=159659,enchant_id=6148,gem_id=168637,bonus_id=5010/4802/6515/1612/4783,context=35
-
-
-
